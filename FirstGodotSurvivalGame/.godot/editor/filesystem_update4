@@ -1,0 +1,14 @@
+res://scene/player.tscn
+res://inventory/playerinv.tres
+res://scene/world.tscn
+res://scene/apple_tree.tscn
+res://scene/apple_collectable.tscn
+res://inventory/inv_ui.tscn
+res://inventory/inv_ui_slot.tscn
+res://apple_tree.gd
+res://inventory/inventory.gd
+res://inventory/Inv_UI.gd
+res://inventory/inv_ui_slot.gd
+res://script/player.gd
+res://stick_collectable.gd
+res://scene/stick_collectable.tscn
