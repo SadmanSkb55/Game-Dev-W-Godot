@@ -4,7 +4,7 @@ var state="no apples"
 var player_in_area=false
 var apple=preload("res://scene/apple_collectable.tscn")
 
-@export var item:InvItem
+#@export var item:InvItem
 var player=null
 
 func _ready():

@@ -2,8 +2,9 @@ extends CharacterBody2D
 
 var speed = 100
 var player_state
+var current_world
 
-@export var inv: Inv
+#@export var inv: Inv
 
 func _physics_process(delta):
 	var direction = Vector2.ZERO
@@ -26,6 +27,9 @@ func _physics_process(delta):
 func play_anim(dir):
 	if player_state == "idle":
 		$AnimatedSprite2D.play("idle")
+		if Input.is_action_pressed("k"):
+			$AnimatedSprite2D.play("cook")
+		#print("cooking")
 	elif player_state == "walking":
 		if abs(dir.x) > abs(dir.y):
 			if dir.x > 0:
@@ -43,6 +47,4 @@ func play_anim(dir):
 func player():
 	pass
 
-func collect(item):
-	inv.insert(item)
 	

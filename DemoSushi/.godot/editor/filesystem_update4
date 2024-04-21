@@ -1,9 +1,11 @@
 res://scene/player.tscn
-res://inventory/playerinv.tres
-res://script/player.gd
 res://scene/world.tscn
 res://scene/apple_tree.tscn
 res://scene/apple_collectable.tscn
-res://inventory/inv_ui.tscn
-res://inventory/inv_ui_slot.tscn
 res://scene/stick_collectable.tscn
+res://scene/world2.tscn
+res://scene/dashboard.tscn
+res://scene/dashboard.gd
+res://scene/cooking area.gd
+res://scene/cookingSystem.tscn
+res://scene/cookingSystem.gd
