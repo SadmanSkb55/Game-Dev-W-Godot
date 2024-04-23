@@ -1,0 +1,12 @@
+res://scene/player.tscn
+res://scene/world.tscn
+res://scene/apple_tree.tscn
+res://scene/apple_collectable.tscn
+res://scene/stick_collectable.tscn
+res://scene/world2.tscn
+res://scene/dashboard.tscn
+res://scene/cookingSystem.tscn
+res://scene/shopkeeper.tscn
+res://scene/shopmenu.tscn
+res://scene/npc.tscn
+res://Dialogue/dialogue.tscn
